@@ -1,0 +1,22 @@
+! Basic settings
+*.foreground:   #c5c8c6
+*.background:   #1d1f21
+*.cursorColor:  #c5c8c6
+
+! Include pywal colors
+#include ".cache/wal/colors.Xresources"
+
+! Font configuration
+*.font: JetBrains Mono:size=10
+*.boldFont: JetBrains Mono:style=Bold:size=10
+*.italicFont: JetBrains Mono:style=Italic:size=10
+*.boldItalicFont: JetBrains Mono:style=Bold Italic:size=10
+
+! DPI settings
+Xft.dpi: 96
+Xft.antialias: true
+Xft.hinting: true
+Xft.rgba: rgb
+Xft.autohint: false
+Xft.hintstyle: hintslight
+Xft.lcdfilter: lcddefault
